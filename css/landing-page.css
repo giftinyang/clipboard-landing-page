@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+    height: 1rem;
+    background-image:  url('/assets/images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+}
+
+.history-container{
+    width: 700px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 150px 100px 50px;
+    grid-row-gap: 30px;
+    margin-bottom:100px;
+}
+h4{
+    text-align: center !important;
+}
+
+.logo{
+    margin-left: 400px;
+    margin-top: 80px;
+}
+.first-p{ 
+    text-align: center;
+}
+
+.snipet{
+    margin-bottom: 100px;
+}
+.second-p{
+    text-align: center;
+}
+
