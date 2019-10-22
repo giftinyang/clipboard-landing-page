@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
+
 body{
     height: 1rem;
     background-image:  url('/assets/images/bg-header-desktop.png');
     background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 .history-container{
@@ -14,6 +20,7 @@ body{
     grid-row-gap: 30px;
     margin-bottom:100px;
 }
+
 h4{
     text-align: center !important;
 }
@@ -29,7 +36,64 @@ h4{
 .snipet{
     margin-bottom: 100px;
 }
+
 .second-p{
     text-align: center;
 }
+
+.ios-button,.mac-button{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.ios-button{
+    background-color:green;
+}
+
+.mac-button{
+    background-color: lightblue;
+}
+
+
+.row{
+    padding-bottom: 5vh;
+}
+
+.quick{
+    padding-top: 4em;
+}
+
+.access_sect-text,.super_sect-text{
+    text-align: center;
+    word-spacing: 7px;
+    letter-spacing: 5px;
+}
+
+.access_sect-text-main,.super_sect-text-main{
+    display: block;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 29px;
+    padding-bottom: 5px;
+}
+
+.access_sect-text-sub,.super_sect-text-sub{
+    display: block;
+    color: rgb(216, 215, 215);
+}
+
+.access_sect-img{
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.super_sect-col{
+    word-spacing: normal !important;
+    letter-spacing: normal !important;
+}
+
 
