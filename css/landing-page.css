@@ -26,7 +26,7 @@ h4{
 }
 
 .logo{
-    margin-left: 400px;
+    margin-left: 300px;
     margin-top: 80px;
 }
 .first-p{ 
@@ -41,6 +41,7 @@ h4{
     text-align: center;
 }
 
+
 .ios-button,.mac-button{
     display: block;
     text-align: center;
@@ -52,10 +53,14 @@ h4{
 
 .ios-button{
     background-color:green;
+    margin-left: 30px;
+
 }
 
 .mac-button{
     background-color: lightblue;
+    margin-left: -40px;
+
 }
 
 
@@ -69,15 +74,12 @@ h4{
 
 .access_sect-text,.super_sect-text{
     text-align: center;
-    word-spacing: 7px;
-    letter-spacing: 5px;
+    margin-top: 5rem;
 }
 
 .access_sect-text-main,.super_sect-text-main{
     display: block;
     text-transform: capitalize;
-    font-weight: 700;
-    font-size: 29px;
     padding-bottom: 5px;
 }
 
@@ -94,6 +96,17 @@ h4{
 .super_sect-col{
     word-spacing: normal !important;
     letter-spacing: normal !important;
+}
+
+.logo_sect{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 2.5rem;
+    margin-top: 5.5rem;
+}
+
+.clipboard{
+    margin-top: 4rem;
 }
 
 
